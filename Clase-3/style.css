@@ -1,0 +1,54 @@
+/* Para usar las mismas propiedas en diferentes elementos  y no tener que hacer esto
+h1 {
+    color: rgba(45, 114, 45, 0.616);
+}
+h4 {
+    color: rgba(45, 114, 45, 0.616);
+}
+*/
+h1 , h4 {
+    color: rgba(45, 114, 45, 0.616);
+}
+
+/* Comentario en CSS */
+/* Podemos reutilizar las clases */
+.parrafo{
+    color: tomato;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 4px;
+    font-style: italic;
+}
+
+#paragraph{
+    color: blue;
+
+}
+
+#footer{
+
+}
+#footer nav ul li{
+    text-decoration: underline  
+}
+
+#footer nav {
+    background-color: black;
+}
+
+#footer {
+
+}
+body{
+    background-image: url('image/imagendiseno.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+/*------------  SERVICIOS.HTML --------------------------------------------------*/
+
+.lista-servicios{
+    background-color: red;
+}

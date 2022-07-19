@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Las delicias de la china</title>
+</head>
+
+<body >
+
+    <!-- <header>
+        <nav>
+            <ul>
+                <div style="display:inline"><li><img class="Logo" src="./imagenes/logo.jpeg" width="50" height="" alt="Las delicias de la china" /></li></div>
+                <li ><a href="./promociones.html" class="Sitios">Promociones</a></li>
+                <li class="Sitios"><a href="./productos.html">Productos</a></li>
+                <li class="Sitios"><a href="./contacto.html">Contacto</a></li>
+                <li class="Sitios"><a href="./nosotros.html">Nosotros</a></li>
+                
+            </ul>
+        </nav>
+    </header> -->
+
+    <header>
+        <nav>
+            <ul>
+                <div style=display:inline>
+                <li><img id="principal" class="Logo" src="./imagenes/logo.jpeg" width="50" height="" alt="Las delicias de la china" /></li></div>
+                <li ><a href="./promociones.html" class="Sitios">Promociones</a></li>
+                <li class="Sitios"><a href="./productos.html">Productos</a></li>
+                <li class="Sitios"><a href="./contacto.html">Contacto</a></li>
+                <li class="Sitios"><a href="./nosotros.html">Nosotros</a></li>
+                
+            <!-- Agregue la ul sin li's para que se separara las secciones de la página  del logotipo , mi intención es que el logo quede 
+            hasta el lado izquierdo y el resto del lado derecho ( Después lo veremos creo pero de momento así medio lo solucione) -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <article>
+                <h1>SABOR CASERO EN CADA PRODUCTO</h1>
+                <!-- Video de como se preparan los pasteles -->
+                <!--  El texto entre etiqueta de apertura y cierre se utiliza por si el navegador no reconociera o pudiera cargar la página incrustada -->
+                <!-- <iframe class="centrar" src="https://www.youtube.com/embed/izi7HH1U_H0" width=500 height=300 >Delicias de la china</iframe> -->
+            </article>
+            
+            <article>
+                <!-- En esta parte tengo un conflicto, mi idea es en pantalla completa mostrar en una sola fila las tres imagenes  
+                y debajo de cada nombre del pastel su imagen ( De hecho recorte el nombre del pastel china y lo removido lo agregue en
+                 en una pseudo clase hover para que no se visualizara tan mal). De momento para que no se vea tan mal use divs pero fue la mejor forma de momento -->
+                <h4 class="subtitulos">Pastel china</h4>
+                <h4 class="subtitulos">Pastel moka</h4>
+                <h4 class="subtitulos">Pastel chocolate</h4>
+                <div style="display: inline;">
+                <img src="imagenes/pastel_china.jpg" class="FotosPopulares" alt="Pastel de la casa" width="200" height="250">
+                </div>
+                <div style="display: inline;">
+                <img src="imagenes/pastel_moka.jpeg" class="FotosPopulares alt="Pastel de la casa" width="200" height="250">
+                </div>
+                <img src="imagenes/pastel_chocolate.jpg" class="FotosPopulares alt="Pastel de la casa" width="200" height="250">
+                </article>
+
+            <article>
+                <h4 class="subtitulo">El mundo de las donas</h4>
+                <img  class="centrar" src="https://www.gastrolabweb.com/u/fotografias/m/2021/6/3/f800x450-14238_65684_5050.jpg"
+                    alt="Donas" width="600" />
+                <p>Muchas veces me pregunté ¿a quién se le habría ocurrido de hacer un pan con un agujero en medio? No
+                    me parecía muy obvio, pero sí una idea ganadora, porque a pesar de tener "un faltante" resultan
+                    exquisitas y es quizá este detalle el que las haga mucho más ricas. Pues resulta que como muchas
+                    otras creaciones, la dona fue un hecho de la casualidad.<p>
+            </article>
+
+            <article>      <!-- -->
+                            <h3  class="subtitulo">OPINIONES DE NUESTROS CLIENTES</h3>
+                <h3 class="opinion">Amo el pastel China</h3>
+                <h3 class="opinion">Recomendadisimo el pastel de zanahoria</h3>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14931.066241535305!2d-103.43912216378718!3d20.679074129020265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428aebfc5557a11%3A0x3bc65e1dc0724879!2sPlaza%20Galerias%2C%20Camichines%20Vallarta%2C%2045020%20Zapopan%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2sus!4v1633423442189!5m2!1ses-419!2sus" width="1000" height="400" ></iframe>        <!--  Localización fisica de tienda -->
+        <a href="productos.html"><h5>Productos</h5></a>
+        <a href="contacto.html"><h5>Contactos</h5></a>
+        <a href="#"><h5>Aviso de privacidad</h5></a>
+        <a href="#"><h5>Terminos y condiciones</h5></a>
+        <h5>Unete a nuestra comunidad</h5>
+        <img src="imagenes/redes_sociales.jpg" width="80"/>
+    </footer>
+
+</body>
+
+</html>

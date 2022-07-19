@@ -1,0 +1,207 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+} */
+
+html {
+    font-size: 10px;
+}
+
+:root {
+    /* Variables = palabras reservadas que le agrego un valor y la puedo usar en todo mi CSS */
+    --Letra-Estandar: 'Festive';
+    --Color-Subtitulos: rgb(207, 148, 106);
+
+}
+
+a  {
+    text-decoration: none;
+}
+
+
+@font-face{
+    
+    font-family: 'Rainbow';
+
+    
+     src: url('../Fonts/Rainbow\ You.otf') format('woff');
+
+    
+    font-display: swap;
+    
+}
+
+
+body{
+
+     background-image: url(../imagenes/Fondo-index.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+    
+}
+
+header nav ul li {
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+    color: gray;
+    padding: 0px;
+}
+
+.Logo {
+    padding-right: 400px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.Sitios {
+    padding-left: 30px;
+    padding-top: 1000px;
+    
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-bottom: 2000px;
+}
+
+h1{
+    text-align: center;
+    font-size: 8rem;
+    color: chocolate;
+    font-family: 'Rainbow'
+
+}
+
+.subtitulo , .subtitulos{
+    font-size: 3rem;
+    text-align: center; 
+    font-family: var('Rainbow');
+    color: var(--Color-Subtitulos);
+    
+}
+
+iframe , .centrar {
+    margin: auto;
+    display: block;
+}
+
+.opinion{
+    display: inline;
+    font-size: 1.5rem;
+    padding: 240px;
+    font-family: 'Festive', cursive;
+}
+
+.subtitulos  {
+    display: inline;
+    padding: 115px;
+
+}
+
+.FotosPopulares {
+    margin-left: 150px;
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* ------------------------------------------------------------- PAGINA NOSOTROS---------------------------------------------------------------------------------- */
+
+ .body-nosotros{
+    background-image: url(../imagenes/fondo-nosotros.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+/* ------------------------------------------------------------- PAGINA PROMOCIONES---------------------------------------------------------------------------------- */
+
+/* .tabla{
+    border: gray .5 rem solid;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(236, 232, 232);
+    margin-top: 3rem;
+    
+}
+
+.encabezado{
+    font-size: 6rem;
+    color: chocolate;
+}
+
+section table tr td{
+    border: 1px solid;
+    margin: 100px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+} */
+ .Pastel-Del-Mes {
+    width: 100%;
+    height: auto;
+    padding: 100px 350px;
+} 
+
+.Todo{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.Texto-Arriba{
+    position: absolute;
+    top: 10px;
+    left: 70%;
+    font-size: 5rem;
+    color: chocolate;
+    font-family: 'Rainbow';
+}
+.Centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 7rem;
+
+}
+
+  
+/* SECCION PRODUCTOOOOOOOOOOOOOOOOOOOOS  -------------------------------------------------------- */
+
+.Imagenes-Productos {
+    display: inline;
+}
+
+.body-contacto{
+    background:#59ABE3;margin:0
+}
+.form{
+    width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+h2{
+    margin:10px 0;padding-bottom:10px;width:180px;
+    color:#78788c;border-bottom:3px solid #78788c}
+input{
+    width:100%;
+    padding:10px;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    border-bottom:2px solid #bebed2
+}
+
+
+button{
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    }
+button:hover{
+    background:#78788c;color:#fff
+}

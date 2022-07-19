@@ -1,0 +1,49 @@
+/*  Fuentes locales o internas - regla @ - @font-face  */
+
+@font-face{
+    /* Defino el nombre de mi font family */
+    font-family: 'roboto-regular';
+
+    /* Ubicación de la fuente en tu computadora y debes seleccionar el archivo terminación .woff*/
+     src: url( ) format('woff');
+
+    /* Swap - Mientras carga la web, muestra una previa de tu font */
+    font-display: swap;
+    
+}
+
+/*html {
+    font-size: 24px;
+} */
+
+/* Root  */
+:root {
+    /* Variables = palabras reservadas que le agrego un valor y la puedo usar en todo mi CSS */
+    --size-general: 40px;
+    --font: 'Festive';
+    --color-princirpal: black;
+
+
+}
+
+
+
+.paragraph{
+    font-family: 'Festive', 'cursive';
+    /*  unidades absolutas */
+    font-size: var(--size-general);
+    color: var(--color-princirpal)
+}
+
+.two{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* unidades relativas */
+    /* font-size: 4em;  1em = 16px  */
+
+     /* rem = se fija en el elemento root */
+    font-size: 1rem; /* 1rem = etiqueta HTML */
+}
+
+.img-profes{
+    width: 100%; /* El tamaño de donde la este mirando */
+}

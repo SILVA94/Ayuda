@@ -1,0 +1,120 @@
+.box {
+    border-radius: 6px;
+    height: 40px;
+    width: 80px;
+    margin: 60px auto;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+/*  Transformacion */
+
+.box:hover {
+    transform: scale(4);
+}
+
+.box2 {
+    /* Transition */
+    /* transition-duration: 5s;
+    transition-property: all;  */
+    transition: all 5s;
+}
+
+.circle1, .circle2, .circle3, .circle4, .circle5 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.circle1 {
+    background-color: aqua;
+    transition: all 1.5s ease;
+}
+
+.circle2 {
+    background-color: black;
+    transition: all 1.5 ease-in;
+}
+
+.circle3 {
+    background-color: blueviolet;
+    transition: all 1.5s ease-in-out;
+}
+
+.circle4 {
+    background-color: chartreuse;
+    transition: all 1.5 ease-out;
+}
+
+.circle5 {
+    background-color: gold;
+    transition: all 1.5s step-end;
+
+}
+
+.container-circle:hover .circle1,
+.container-circle:hover .circle2,
+.container-circle:hover .circle3,
+.container-circle:hover .circle4,
+.container-circle:hover .circle5 {
+    transform: translateX(200px) ;
+}
+
+.square1, .square2 {
+    border-radius: 4px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    position: absolute;
+}
+
+.square1 {
+    background-color: black;
+}
+
+.square2 {
+    background-color: forestgreen;
+    transition: all 0.8s;
+}
+
+.square2:hover {
+    transform: translate(20px, 20px);
+}
+
+.animaciones {
+    width: 100px;
+    height: 100px;
+    margin: 50 px auto;
+    background-color: yellow;
+}
+
+.animaciones:hover {
+    /* Nombre - Duracion
+    animation-name: ;
+    animation-duration: ; */
+    animation: changeColor 4s  ; 
+}
+
+/* Fotogramas de la animacion - regla */
+
+@keyframes changeColor {
+    0% {
+        background-color: violet;
+    }
+    15% {
+        border-radius: 50%; 
+    }
+    50% {
+        width: 600px;
+    }
+    100%{
+        background-color: red;
+    }
+}
